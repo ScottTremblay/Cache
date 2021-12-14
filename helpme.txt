@@ -1,0 +1,11 @@
+1) Check if head is null. If it is then head = read_key, return head.
+
+2) If hit
+        if first hits++
+        else attach to front and bump the rest back and hits++
+
+3) If miss
+        attach to front and check num_keys. If > 4 then set last->prev to NULL 
+                                                        free both
+                                                        check if last element is modified, if so write_key and writebacks++
+                                                        num_keys--
